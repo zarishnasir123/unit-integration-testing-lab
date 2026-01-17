@@ -1,5 +1,3 @@
-# bank_app.py
-
 def deposit(balance, amount):
     if amount <= 0:
         raise ValueError("Deposit amount must be positive")
